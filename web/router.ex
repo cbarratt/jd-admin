@@ -14,7 +14,7 @@ defmodule JdAdmin.Router do
   end
 
   scope "/", JdAdmin do
-    pipe_through :browser # Use the default browser stack
+    pipe_through :browser
 
     resources "/sessions", SessionController, only: [:new, :create, :delete]
     resources "/posts", PostController
@@ -23,8 +23,10 @@ defmodule JdAdmin.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", JdAdmin do
-  #   pipe_through :api
-  # end
+  scope "/api/v1", JdAdmin.Api do
+    pipe_through :api
+
+    get "/posts", PostController, :index
+    get "/posts/:id", PostController, :show
+  end
 end
