@@ -37,6 +37,7 @@ defmodule JdAdmin.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"},
+     {:cors_plug, "~> 1.1"},
      {:comeonin, "~> 2.1"}]
   end
 

@@ -35,5 +35,7 @@ defmodule JdAdmin.Endpoint do
     key: "_jd_admin_key",
     signing_salt: "pMlSGvg3"
 
+  plug CORSPlug
+
   plug JdAdmin.Router
 end
