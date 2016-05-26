@@ -8,6 +8,6 @@ defmodule JdAdmin.Api.PostController do
   end
 
   def show(conn, %{"id" => id}) do
-    render(conn, "post.json", post: Repo.get_by!(Post, slug: id))
+    render(conn, "show.json", post: Repo.get_by!(Post, slug: id))
   end
 end
