@@ -34,37 +34,36 @@
   }
 
   &__link {
-    color: $white;
     font-weight: 600;
     text-transform: uppercase;
   }
 }
 
-.login-block {
-  background: $orange url('/images/ui/bg-diag-grey.png') top left;
-  background-size: 6px;
-  color: $cream;
-  padding: 1em 2em 3em;
-  text-align: left;
+// .login-block {
+//   background: $orange url('/images/ui/bg-diag-grey.png') top left;
+//   background-size: 6px;
+//   color: $cream;
+//   padding: 1em 2em 3em;
+//   text-align: left;
 
-  &--header {
-    bottom: 0;
-    right: 0;
-    position: fixed;
-  }
+//   &--header {
+//     bottom: 0;
+//     right: 0;
+//     position: fixed;
+//   }
 
-  &__action {
-    &--logout, &--login {
-      background-color: $grey-dark;
-      bottom: 0;
-      display: block;
-      font-weight: 600;
-      left: 0;
-      margin-top: .5em;
-      padding: .5em 2em;
-      position: absolute;
-      right: 0;
-      text-transform: uppercase;
-    }
-  }
-}
+//   &__action {
+//     &--logout, &--login {
+//       background-color: $grey-dark;
+//       bottom: 0;
+//       display: block;
+//       font-weight: 600;
+//       left: 0;
+//       margin-top: .5em;
+//       padding: .5em 2em;
+//       position: absolute;
+//       right: 0;
+//       text-transform: uppercase;
+//     }
+//   }
+// }

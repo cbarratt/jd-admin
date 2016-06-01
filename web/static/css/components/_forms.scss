@@ -1,0 +1,28 @@
+.c-form {
+  max-width: 50em;
+  &--stacked {
+    .c-form__input,
+    .c-form__label {
+      display: block;
+    }
+  }
+}
+
+.c-form__label {
+  font-weight: 400;
+  padding: 0 1em .5em;
+}
+
+.c-form__input {
+  border: 0;
+  margin-bottom: 1.5em;
+  padding: .5em 1em;
+
+  &--textarea {
+    min-height: 50em;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 1em 1em;
+    width: 100%;
+  }
+}

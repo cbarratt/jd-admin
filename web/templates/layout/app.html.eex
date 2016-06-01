@@ -18,12 +18,12 @@
       <nav class="site-navigation" role="navigation">
         <ul class="nav-list">
           <li class="nav-list__item">
-            <%= link "Posts", to: "/posts", class: "ui-button" %>
+            <%= link "Posts", to: "/posts", class: "nav-list__link" %>
           </li>
         </ul>
       </nav>
 
-      <div class="login-block login-block--header">
+      <!--<div class="login-block login-block--header">
         <%= if user = current_user(@conn) do %>
           Logged in as
           <strong><%= user.username %></strong>
@@ -33,7 +33,7 @@
           You are not logged in
           <%= link "Log in", to: session_path(@conn, :new), class: "login-block__action login-block__action--login" %>
         <% end %>
-      </div>
+      </div> -->
     </header>
 
     <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>

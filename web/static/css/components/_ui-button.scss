@@ -1,0 +1,25 @@
+.ui-button {
+  background: $orange;
+  border: 0;
+  color: $white;
+  display: inline-block;
+  padding: .5em 1em;
+
+  &--new,
+  &--save {
+    background-color: $green;
+    font-size: 1.25em;
+  }
+
+  &--show {
+    background-color: $orange;
+  }
+
+  &--edit {
+    background-color: $blue;
+  }
+
+  &--delete {
+    background-color: $red;
+  }
+}
