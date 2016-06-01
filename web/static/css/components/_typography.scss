@@ -1,0 +1,52 @@
+body {
+  color: $grey-dark;
+  font-family: $font-body;
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-headline;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+p {
+  color: $grey-mid;
+  font-size: 1.125em;
+}
+
+a {
+  color: $orange;
+  text-decoration: none;
+}
+
+strong {
+  color: $grey-dark;
+  font-weight: 600;
+}
+
+em {
+  color: $orange;
+}
+
+hr {
+  background-color: $grey-dark;
+  border: 0;
+  height: .25em;
+  margin: .5em auto 2em;
+  width: 4em;
+}
+
+// text color
+.tc-- {
+  &orange {
+    color: $orange;
+  }
+}
+
+// text align
+.ta {
+  &--right {
+    text-align: right;
+  }
+}

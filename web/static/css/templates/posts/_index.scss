@@ -1,0 +1,10 @@
+.post-list {
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    background-color: $white;
+    list-style: none;
+    padding: .5em 2em 1em;
+  }
+}

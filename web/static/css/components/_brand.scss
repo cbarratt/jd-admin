@@ -1,0 +1,47 @@
+.jd-block {
+  text-align: center;
+  position: relative;
+
+  &__title,
+  &__subtitle {
+    color: $cream;
+    font-family: $font-headline;
+    font-weight: 800;
+    display: block;
+    line-height: 1.1em;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 5em;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  &__rule {
+    background-color: $cream;
+    margin: 2em auto;
+  }
+
+  .brand__logo-small {
+    display: block;
+    margin: 0 auto 2em;
+    max-width: 6em;
+  }
+}
+
+.jd-logo__j {
+  stroke-dashoffset: 20em;
+  stroke-dasharray: 20em;
+}
+
+.jd-logo__d {
+  stroke-dashoffset: -20em;
+  stroke-dasharray: 20em;
+}

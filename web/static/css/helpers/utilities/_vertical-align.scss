@@ -1,0 +1,11 @@
+.u-vertical-align {
+  &__parent {
+    position: relative;
+  }
+
+  &__child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,70 @@
+.site-header {
+  background: $white url('/images/ui/bg-diag-grey.png') top left;
+  background-size: 6px;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 5em;
+}
+
+.logo-block {
+  background: $grey-dark url("/images/brand/logo-main--large.png") no-repeat center;
+  background-size: 2em;
+  display: block;
+  height: 5em;
+}
+
+.site-navigation {
+}
+
+.nav-list {
+  padding: 0;
+  margin: 0;
+
+  &__item {
+    background: $white url('/images/ui/bg-diag-grey.png') top left;
+    background-size: 6px;
+    display: block;
+    font-weight: 400;
+    list-style: none;
+    padding: 1em .5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    color: $white;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+.login-block {
+  background: $orange url('/images/ui/bg-diag-grey.png') top left;
+  background-size: 6px;
+  color: $cream;
+  padding: 1em 2em 3em;
+  text-align: left;
+
+  &--header {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  &__action {
+    &--logout, &--login {
+      background-color: $grey-dark;
+      bottom: 0;
+      display: block;
+      font-weight: 600;
+      left: 0;
+      margin-top: .5em;
+      padding: .5em 2em;
+      position: absolute;
+      right: 0;
+      text-transform: uppercase;
+    }
+  }
+}
