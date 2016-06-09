@@ -1,6 +1,17 @@
-<h2>Edit post</h2>
+<div class="cactus__g">
+  <div class="cactus__u--1">
+    <h1>Edit post</h1>
+  </div>
+</div>
 
-<%= render "form.html", changeset: @changeset,
-                        action: post_path(@conn, :update, @post) %>
+<div class="post-edit">
+  <div class="cactus__g">
+    <div class="cactus__u--1">
 
-<%= link "Back", to: post_path(@conn, :index) %>
+      <%= render "form.html", changeset: @changeset,
+                              action: post_path(@conn, :update, @post) %>
+
+      <%= link "Back", to: post_path(@conn, :index), class: "ui-button ui-button--back" %>
+    </div>
+  </div>
+</div>

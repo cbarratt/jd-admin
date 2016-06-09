@@ -1,0 +1,17 @@
+<div class="cactus__g">
+  <div class="cactus__u--1">
+    <h1>Edit project</h1>
+  </div>
+</div>
+
+<div class="project-edit">
+  <div class="cactus__g">
+    <div class="cactus__u--1">
+
+      <%= render "form.html", changeset: @changeset,
+                              action: project_path(@conn, :update, @project) %>
+
+      <%= link "Back", to: project_path(@conn, :index), class: "ui-button ui-button--back" %>
+    </div>
+  </div>
+</div>

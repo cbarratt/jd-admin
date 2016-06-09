@@ -20,6 +20,9 @@
           <li class="nav-list__item">
             <%= link "Posts", to: "/posts", class: "nav-list__link" %>
           </li>
+          <li class="nav-list__item">
+            <%= link "Projects", to: "/projects", class: "nav-list__link" %>
+          </li>
         </ul>
       </nav>
 

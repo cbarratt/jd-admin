@@ -1,5 +1,6 @@
 .c-form {
   max-width: 50em;
+
   &--stacked {
     .c-form__input,
     .c-form__label {
@@ -17,6 +18,7 @@
   border: 0;
   margin-bottom: 1.5em;
   padding: .5em 1em;
+  width: 100%;
 
   &--textarea {
     min-height: 50em;

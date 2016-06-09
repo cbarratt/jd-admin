@@ -12,7 +12,9 @@ defmodule JdAdmin.Api.PostView do
         title: post.title,
         slug: post.slug,
         excerpt: post.excerpt,
-        body: post.body
+        body: post.body,
+        created_at: post.inserted_at,
+        updated_at: post.updated_at
       }
     }
   end
@@ -23,7 +25,9 @@ defmodule JdAdmin.Api.PostView do
       title: post.title,
       slug: post.slug,
       excerpt: post.excerpt,
-      body: post.body
+      body: post.body,
+      created_at: post.inserted_at,
+      updated_at: post.updated_at
     }
   end
 end

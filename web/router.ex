@@ -18,6 +18,7 @@ defmodule JdAdmin.Router do
 
     resources "/sessions", SessionController, only: [:new, :create, :delete]
     resources "/posts", PostController
+    resources "/projects", ProjectController
     resources "/users", UserController
 
     get "/", PageController, :index
@@ -28,5 +29,8 @@ defmodule JdAdmin.Router do
 
     get "/posts", PostController, :index
     get "/posts/:id", PostController, :show
+
+    get "/projects", ProjectController, :index
+    get "/projects/:id", ProjectController, :show
   end
 end
