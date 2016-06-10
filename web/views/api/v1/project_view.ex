@@ -13,6 +13,7 @@ defmodule JdAdmin.Api.ProjectView do
         slug: project.slug,
         excerpt: project.excerpt,
         body: project.body,
+        project_url: project.project_url,
         created_at: project.inserted_at,
         updated_at: project.updated_at
       }
@@ -26,6 +27,7 @@ defmodule JdAdmin.Api.ProjectView do
       slug: project.slug,
       excerpt: project.excerpt,
       body: project.body,
+      project_url: project.project_url,
       created_at: project.inserted_at,
       updated_at: project.updated_at
     }

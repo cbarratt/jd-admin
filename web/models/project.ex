@@ -5,6 +5,7 @@ defmodule JdAdmin.Project do
     field :title, :string
     field :slug, :string
     field :excerpt, :string
+    field :project_url, :string
     field :body, :string
 
     timestamps

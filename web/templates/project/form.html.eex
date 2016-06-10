@@ -25,6 +25,12 @@
     </div>
 
     <div class="form-group">
+      <%= label f, :project_url, class: "c-form__label" %>
+      <%= text_input f, :project_url, class: "c-form__input" %>
+      <%= error_tag f, :project_url %>
+    </div>
+
+    <div class="form-group">
       <%= label f, :body, class: "c-form__label" %>
       <%= textarea f, :body, class: "c-form__input c-form__input--textarea" %>
       <%= error_tag f, :body %>
